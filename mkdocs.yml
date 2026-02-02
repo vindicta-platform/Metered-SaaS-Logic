@@ -1,0 +1,19 @@
+site_name: Metered SaaS Logic
+site_description: Usage metering for SaaS applications
+site_url: https://vindicta-platform.github.io/Metered-SaaS-Logic/
+
+repo_name: vindicta-platform/Metered-SaaS-Logic
+repo_url: https://github.com/vindicta-platform/Metered-SaaS-Logic
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: light-green
+      accent: yellow
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Contributing: contributing.md
+plugins:
+  - search
