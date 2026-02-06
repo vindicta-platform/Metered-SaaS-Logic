@@ -1,26 +1,47 @@
-# Roadmap
+# Metered-SaaS-Logic Roadmap
 
-## Vision
-Flexible metering for any usage-based billing model.
-
----
-
-## v0.1.0 - Foundation (Current)
-- [x] Initialize repository
-- [ ] Usage event schema
-- [ ] Basic aggregation
-- [ ] Credit balance tracking
-
-## v0.2.0 - Pricing
-- [ ] Dynamic pricing multipliers
-- [ ] Tiered pricing support
-- [ ] Overage handling
-
-## v1.0.0 - Production
-- [ ] Invoice generation
-- [ ] Webhook integrations
-- [ ] PyPI publication
+> **Vision**: Usage-based billing and metering logic  
+> **Status**: Deferred (P3)  
+> **Last Updated**: 2026-02-03
 
 ---
 
-*Last updated: 2026-02-01*
+## v1.0 Target: Q3 2026
+
+### Mission Statement
+Provide usage-based metering and billing logic for potential SaaS monetization of Vindicta platform features.
+
+---
+
+## Current Status: Deferred
+
+Metered-SaaS-Logic is a **future monetization** package. Development deferred until platform has user traction.
+
+---
+
+## When Needed For
+
+- API usage billing
+- Premium feature metering
+- Subscription tier management
+
+---
+
+## Roadmap
+
+| Phase | Target | Status |
+|-------|--------|--------|
+| v0.1.0 | Usage tracking | 🔲 Deferred |
+| v0.2.0 | Billing integration | 🔲 Deferred |
+| v1.0.0 | Full SaaS metering | 🔲 Deferred |
+
+---
+
+## Dependencies
+
+- Agent-Auditor-SDK (usage tracking patterns)
+- Economy-Engine (currency integration)
+
+---
+
+*Maintained by: Vindicta Platform Team*
