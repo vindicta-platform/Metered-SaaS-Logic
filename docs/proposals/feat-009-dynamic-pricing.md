@@ -1,11 +1,11 @@
 # Feature Proposal: Usage-Based Dynamic Pricing Engine
 
-**Proposal ID**: FEAT-009  
-**Author**: Unified Product Architect (Autonomous)  
-**Created**: 2026-02-01  
-**Status**: Draft  
-**Priority**: High  
-**Target Repository**: Metered-SaaS-Logic  
+**Proposal ID**: FEAT-009
+**Author**: Unified Product Architect (Autonomous)
+**Created**: 2026-02-01
+**Status**: Draft
+**Priority**: High
+**Target Repository**: Metered-SaaS-Logic
 
 ---
 
@@ -76,14 +76,14 @@ Metered-SaaS-Logic/
 ```python
 class DemandMonitor:
     """Monitor platform demand for dynamic pricing."""
-    
+
     thresholds = {
         'low': (0, 30),      # 0-30% capacity: 0.8x
         'normal': (30, 70),  # 30-70% capacity: 1.0x
         'high': (70, 90),    # 70-90% capacity: 1.2x
         'peak': (90, 100),   # 90-100% capacity: 1.5x
     }
-    
+
     def current_multiplier(self) -> Decimal:
         """Get current demand-based price multiplier."""
 ```
@@ -93,7 +93,7 @@ class DemandMonitor:
 ```python
 class LoyaltyTracker:
     """Track user tenure and spending for loyalty discounts."""
-    
+
     tiers = {
         'new': {'months': 0, 'discount': 0},
         'regular': {'months': 3, 'discount': 5},
@@ -116,18 +116,18 @@ class LoyaltyTracker:
 ### User Stories
 
 #### US-001: Off-Peak Savings
-**As a** budget-conscious user  
-**I want to** see when prices are lowest  
+**As a** budget-conscious user
+**I want to** see when prices are lowest
 **So that** I can schedule my usage for maximum savings
 
 #### US-002: Loyalty Rewards
-**As a** long-time member  
-**I want to** receive automatic discounts  
+**As a** long-time member
+**I want to** receive automatic discounts
 **So that** my loyalty is rewarded
 
 #### US-003: Price Transparency
-**As a** platform user  
-**I want to** see the current price multiplier  
+**As a** platform user
+**I want to** see the current price multiplier
 **So that** I can make informed decisions
 
 ### Acceptance Criteria

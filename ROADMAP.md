@@ -1,7 +1,7 @@
 # Metered-SaaS-Logic Roadmap
 
-> **Vision**: Usage-based billing and metering logic  
-> **Status**: Deferred (P3)  
+> **Vision**: Usage-based billing and metering logic
+> **Status**: Deferred (P3)
 > **Last Updated**: 2026-02-03
 
 ---
